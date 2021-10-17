@@ -13,7 +13,7 @@ PARTITION pWest VALUES IN (102, 104, 106),
 PARTITION pNorth VALUES IN (107, 109, 111),   
 PARTITION pSouth VALUES IN (108, 110, 112)); 
 
-INSERT INTO stores(cust_name, bill_no, store_id, bill_date, amount) VALUES
+INSERT INTO test_partition.stores(cust_name, bill_no, store_id, bill_date, amount) VALUES
 ('Mike', 'S001', 101, '2015-01-02', 125.56),   
 ('Robert', 'S003', 103, '2015-01-25', 476.50),   
 ('Peter', 'S012', 122, '2016-02-15', 335.00),   
