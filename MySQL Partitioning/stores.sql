@@ -1,3 +1,5 @@
+CREATE DATABASE IF NOT EXISTS test_partition;
+
 CREATE TABLE IF NOT EXISTS test_partition.stores (   
     cust_name VARCHAR(40),   
     bill_no VARCHAR(20) NOT NULL,   
