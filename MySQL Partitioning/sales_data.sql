@@ -1,4 +1,4 @@
-INSERT INTO Sales(cust_id, name, store_id, bill_no, bill_date, amount) VALUES   
+INSERT INTO test_partition.sales(cust_id, name, store_id, bill_no, bill_date, amount) VALUES   
 (1, 'Mike', 'S001', 101, '2015-01-02', 125.56),   
 (2, 'Robert', 'S003', 103, '2015-01-25', 476.50),   
 (3, 'Peter', 'S012', 122, '2016-02-15', 335.00),   
